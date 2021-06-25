@@ -1,9 +1,9 @@
 # Daily-Nutritional-Advisor
 ####  This is a web application for Daily-Nutritional-Advisor.  June 25,2021
 #### By **Nixon Koech**
-  **Eddah Karambu**
-  **Kiptoo Victor**
-  **Moses Mwanzia**
+ +  **Eddah Karambu**
+ + **Kiptoo Victor**
+ + **Moses Mwanzia**
 ## Description
 This is a web appliaction for Daily nutrtional advisor.This web application  helps a user to know the most approprite diet for the day.The application will first prompt the user to know his/her BMI and then use the result to know the most appropriate diet for the day .
 ## Setup/Installation Requirements
@@ -48,4 +48,7 @@ https://github.com/Koech-code/Daily-Nutritional-Advisor.git
  + moses.mwanzani@student.moringaschool.com
 ### License
 *This license is under[MIT LICENSE](LICENSE)*
-Copyright (c) 2021 **Nixon Kipkorir**
+Copyright (c) 2021 **Nixon Kipkorir** 
+  + **Eddah Karambu**
+  + **Kiptoo Victor**
+  + **Moses Mwanzia**
