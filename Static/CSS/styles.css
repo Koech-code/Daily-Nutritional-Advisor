@@ -1,0 +1,21 @@
+.bg-light{
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    opacity: 80%;
+    margin: 0;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+#input{
+    width: 10vw;
+}
+
+/* #type{
+    margin-left: 2%;
+    background-color: tomato;
+    color: teal;
+} */
