@@ -1,21 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(140deg, #628DFD,  #62FD71);
+    /* width: 100%; */
+}
 .bg-light{
     width: 100%;
-    height: 10vh;
-    background-color: blue;
-    opacity: 80%;
-    margin: 0;
+    height: 8vh;
+    background-image: linear-gradient(120deg,#eaedf5, #3a6ff5);
+    /* margin-left: 10%; */
+}
+
+.navbar{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+
+.nav-item{
+    padding-left: 35%;
 }
 
 .navbar-brand{
     color: white;
 }
 
-#input{
+#input1, #input2, #input3{
     width: 10vw;
+    /* margin-right: 30%; */
 }
 
-/* #type{
-    margin-left: 2%;
-    background-color: tomato;
-    color: teal;
+.vl {
+    border-left: 3px solid white;
+    height: 450px;
+    margin-left: 50%;
+    position: relative;
+    bottom: 15em;
+}
+
+#images{
+    /* margin-left: 60%; */
+    position: relative;
+    bottom: 43em;
+    float: right;
+    margin-right: 5%;
+}
+
+
+.info{
+    margin-left: 60%;
+  /* display: flex;
+  justify-content: right; */
+    /* float: right; */
+    font-size: 20px;
+    position: relative;
+    bottom: 14em;
+    margin-left: 40%;
+
+}
+
+/* 
+#info{
+    margin-left: 60%;
+    position: relative;
+    bottom: 14em;
+    color: white;
+    font-size: 45px;
+    width: 40vw;
+    margin-left: 62%;
 } */
+
+button{
+    margin: 3% 0 0 20%;
+}

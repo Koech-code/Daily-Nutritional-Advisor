@@ -4,43 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="JS/jQuery.js"></script>
+    <script src="Static/JS/jQuery.js"></script>
     <link rel="stylesheet" href="Static/CSS/bootstrap.css">
     <link rel="stylesheet" href="Static/CSS/styles.css">
     <title>Daily nutritional advisor</title>
 </head>
 <body>
-    <div class="container navbar-light bg-light">
-        <nav class="navbar">
-         <a href="#" class="navbar-brand">HOME</a>
-         <a href="#" class="navbar-brand">BMI</a>
-         <a href="#" class="navbar-brand">DIET</a>
-         <a href="#" class="navbar-brand">LOGIN</a>
-         <a href="#" class="navbar-brand">REGISTER</a>
+    <div class="container-fluid ">
+        <nav class="navbar navbar-light bg-light navbar-expand-lg">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="navbar-brand">HOME</a></li>
+                <li class="nav-item"><a href="#" class="navbar-brand">BMI</a></li>
+                <li class="nav-item"><a href="#" class="navbar-brand">DIET</a></li>
+                <li class="nav-item"><a href="#" class="navbar-brand">LOGIN</a></li>
+                <li class="nav-item"><a href="#" class="navbar-brand">REGISTER</a></li>
+            </ul>
         </nav>
        <div class="row">
             <div class="col-sm-6 ">
-                INPUT TYPE
+                 <p>INPUT TYPE</p>
             </div>
             <div class="col-sm-6 ">
-                <p id="type">INPUT FIELD</p>
+                 <p id="type">INPUT FIELD</p>
             </div>
-            <div class="row">
-                <div class="col-sm-6 ">
-                    <p>Height in meters square</p>
-                </div>
-                <div class="col-sm-6 ">
-                  <input type="text" id="input">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ">
+                 <p>Height in meters square</p>
             </div>
-            <div class="row">
-                <div class="col-sm-6 ">
-                    <p>Weight in Kg</p>
-                </div>
-                <div class="col-sm-6 ">
-                  <input type="text" id="input">
+            <div class="col-sm-6 ">
+                 <input type="text" id="input1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ">
+                 <p>Weight in Kg</p>
+            </div>
+            <div class="col-sm-6 ">
+                 <input type="text" id="input2">
+            </div>
+        </div>
+            <button class="btn btn-success " onclick="bmi()">GET BMI</button>
+        <div class="row">
+            <div class="col-sm-6 ">
+                 <p>Your BMI is</p>
+            </div>
+            <div class="col-sm-6 ">
+                 <input type="text" id="input3">
+            </div>
+        </div>    
+        <div class="vl"></div>
+        <div class="row" id="images">
+            <div class="col-md-6">
+                <img id="img1" src="Static/IMAGES/image1.png" alt="stethoscope" width="300vw" height="250vh">
+            </div>
+            <div class="col-md-6">
+                <img id="img2" src="Static/IMAGES/image2.png" alt="exercise" width="300vw" height="250vh">
+            </div>
+        </div>
+        <div class="row info">
+            <div class="col-md-6" >
+                <p>It is important to know your BMI before taking any meal, you will always live healthy.</p>
             </div>
         </div>
     </div>
-    <script src="JS/main.js"></script>
+    <script src="Static/JS/main.js"></script>
 </body>
 </html>
