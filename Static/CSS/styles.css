@@ -4,3 +4,62 @@
   min-height: 100vh;
   min-width: 100vw;
 }
+.combine{
+  display: flex;
+  width:80%;
+  margin: auto;
+}
+.image1{
+  width :50%;
+  max-width: 500px;
+}
+.image{
+  object-fit: cover;
+  height: 100%;
+  width:100%
+}
+.combine1{
+  padding-left: 50px;
+}
+.header1{
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  padding-right: 550px;
+  font-style: italic;
+}
+.Breakfast{
+  padding-top: 20px;
+  color: blue;
+}
+.lunch{
+  padding-top: 20px;
+  color: blue;
+}
+.dinner{
+  padding-top: 20px;
+  color: blue;
+}
+.exercise1{
+  padding-top: 20px;
+  color: blue;
+}
+.HEADER2{
+  text-align: center;
+  padding-right: 550px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.normal{
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.diete{
+  font-size: 30px;
+}
+.one{
+  padding-left: 500px;
+}
