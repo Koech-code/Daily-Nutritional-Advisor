@@ -1,0 +1,6 @@
+.whole{
+  background: rgb(22,138,207);
+  background: linear-gradient(0deg, rgba(22,138,207,1) 0%, rgba(9,121,87,1) 77%);
+  min-height: 100vh;
+  min-width: 100vw;
+}
