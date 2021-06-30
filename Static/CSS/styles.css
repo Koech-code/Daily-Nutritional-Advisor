@@ -24,11 +24,17 @@
 }
 .header1{
   justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 550px;
 }
 h1{
   text-align: center;
   padding-right: 550px;
   font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
 }
 .Breakfast{
   padding-top: 20px;
@@ -49,17 +55,18 @@ h1{
 .HEADER2{
   text-align: center;
   padding-right: 550px;
-  font-size: 20px;
+  font-size: 45px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 .normal{
   padding-top: 30px;
-  font-size: 20px;
+  font-size: 45px;
   font-weight: bold;
 }
 .diete{
   font-size: 30px;
+  font-weight: bold;
 }
 .one{
   display: flex;
@@ -96,7 +103,7 @@ h1{
 .normal{
   text-align: center;
   padding-right: 550px;
-  font-size: 20px;
+  font-size: 45px;
   font-weight: bold;
   padding-bottom: 20px;
 }
@@ -126,21 +133,21 @@ h1{
 .Over{
   text-align: center;
   padding-right: 550px;
-  font-size: 20px;
+  font-size: 45px;
   font-weight: bold;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .div{
-  text-align: center;
-  padding-left: 550px;
   font-style: italic;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 .picture1{
   width :50%;
   max-width: 500px;
-  padding-left: 100px;
+
 }
 .ball{
   object-fit: cover;
@@ -170,14 +177,52 @@ h1{
 }
 .obese{
   text-align: center;
-  padding-left: 550px;
-  font-style: italic;
-  font-size: 30px;
+  padding-left: 450px;
+  font-size: 45px;
   font-weight: bold;
+  padding-bottom: 0px;
+  padding-top: 30px;
 }
 .total{
-  
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
+.Breakfastt{
+  color: blue;
+}
+.lunchh{
+  color: blue;
+}
+.dinnerr{
+  color: blue;
+}
+.exercisess{
+  color: blue;
+}
+.lightbreakfast{
+  color: blue;
+}
+.lightlunch{
+  color: blue;
+}
+.lightdinner{
+  color: blue;
+}
+.alot{
+  color: blue;
+}
+.snack{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.photo{
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
 
 .bg-light{
     width: 100%;
