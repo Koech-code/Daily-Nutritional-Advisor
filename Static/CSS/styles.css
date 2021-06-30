@@ -40,9 +40,11 @@ body{
 #images{
     /* margin-left: 60%; */
     position: relative;
+    display: flex;
+    flex-direction: right;
     bottom: 43em;
     float: right;
-    margin-right: 5%;
+    /* margin-right: 5%; */
 }
 
 
