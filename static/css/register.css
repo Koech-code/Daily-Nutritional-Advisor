@@ -34,7 +34,7 @@ body{
   height: 70vh;
   width: 100%;
   text-align: center;
-  margin-top: 5em;
+  margin-top: 2em;
   border-radius: 15px;
 }
 
@@ -42,7 +42,7 @@ body{
   background-color: rgba(24, 128, 251, 0.29);
   width: 100%;
   height: 70vh;
-  margin-top: 5em;
+  margin-top: 2em;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -71,5 +71,46 @@ input[type="password"] {
   align-items: center;
 }
 
-
  
+.ul{
+  margin-right: 5em;
+}
+
+ul>li{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar{
+  font-size: 1.2em;
+  height: 10vh;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  color: white;
+  width: 100%;
+}
+.navbar ul li{
+  margin-left: 3em;
+}
+.navbar ul li a{
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover{
+  color: red;
+}
+.logo a{
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
