@@ -1,13 +1,15 @@
 
 
 .topnav {
-    background-color: blue;
+  background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+  .na{
+
+  }
    .topnav a {
     float: left;
     color: #f2f2f2;
@@ -22,17 +24,25 @@
     color: black;
   }
 .home1{
-  margin-right: 85%;
-  background-image: url(/Static/IMAGES/homebackgroundimage.jpg);
+ 
+  background-image: url(/Static/IMAGES/back3.jpg);
   background-repeat: no-repeat;
   /* background-position: contain; */
   background-size: cover;
-  height: 2000px;
-  width: 100%;
+  height: 1600px;
+  
   justify-content: center;
   color: antiquewhite;
  background-color: rgb(108, 108, 184);
  }
+ .home1 h3{
+color:darkblue;
+ margin-right: 20%;
+ }
+ .home1 p{
+
+  margin-right: 20%;
+  }
 body{
   color: white;
   background-color: rgb(63, 63, 153);
@@ -64,4 +74,35 @@ align-items: center;
   width: 12vw;
   color: blue;
   font-style: italic;
+}
+.bg-light{
+  background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about{
+margin-left: 30px;
+}
+.about{
+  color: whitesmoke;
+padding-top: 4em;
+margin-left: 15%;
+margin-right: 20%;
+}
+.about h2{
+  margin-left: 15%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
 }
