@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Static/CSS/bootstrap.css">
+  <link rel="stylesheet" href="Static/CSS/register.css" type="text/css">
+  <script src="Static/JS/jQuery-3.6.0.js"></script>
+  <script src="Static/JS/register.js"></script>
+  <title>Register-Page</title>
+</head>
+<body>
+
+  <div class="navbar">
+
+    <div class="logo">
+      <a href="#" style="text-decoration: none;" >Daily Nutritional <br> Advisor</a>
+    </div>
+
+    <div class="ul">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bmi">BMI</a></li>
+        <li><a href="#diet">Diet</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+     <div class="register-info"> 
+       <div class="register-head">
+         <h1>Welcome Back!</h1>
+         <p>Don't have an account? register, <br> it wont take a minute.</p>
+         <button type="submit" class="btn btn-primary">Register</button>
+       </div>
+         
+      <div class="register-form"></div>
+      <form  method="POST" id="registration_form">
+        
+        <form action="#">
+          <h1>Register</h1>
+          <div class="mb-3 forms">
+            <label for="name" class="form-label"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+  
+          <div class="mb-3 forms">
+            <label for="email" class="form-label"></label>
+            <input type="email" class="form-control" id="email" placeholder="Email address">
+          </div>
+  
+          <div class="mb-3 forms">
+            <label for="number" class="form-label"></label>
+            <input type="number" class="form-control" id="name" placeholder="Phone Number">
+          </div>
+  
+          <div class="mb-3">
+            <label for="password" class="form-label"></label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+
+          <div class="r-btn">
+            <div class="mb-3 forms">
+              <input type="radio" name="fav_language" value="HTML"> Male
+              <input type="radio" name="fav_language" value="CSS">Female
+            </div>
+    
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <label class="form-check-label" for="exampleCheck1">Accepts our terms and privacy policy</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>  
+          
+        </form>
+
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
