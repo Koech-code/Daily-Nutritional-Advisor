@@ -317,6 +317,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  width: 8vw;
 }
 
 button,
@@ -1141,6 +1142,7 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    padding-left: 0%;
   }
 
   .col-md-7 {
@@ -2990,6 +2992,10 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #198754;
   border-color: #198754;
+  margin: 4% 0 0 10%;
+  width: 8vw;
+  height: 7vh;
+  font-size: 23px;
 }
 .btn-success:hover {
   color: #fff;
@@ -4164,7 +4170,8 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
+  margin-left: 50%; 
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
