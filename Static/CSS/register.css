@@ -28,7 +28,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/register.png");
+  background-image: url("../IMAGES/register.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
@@ -73,12 +73,20 @@ input[type="password"] {
 
  
 .ul{
-  margin-right: 5em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: .1vh;
+  font-size: 1.8em;
+  margin-left: 0;
+  margin-bottom: 1.8em;
 }
 
 ul>li{
   display: flex;
   justify-content: space-evenly;
+  
 }
 .navbar{
   font-size: 1.2em;
@@ -89,10 +97,11 @@ ul>li{
   align-items: center;
   background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
 }
+
 .navbar ul{
   display: flex;
   list-style-type: none;
-  justify-content: flex-end;
+  justify-content: center;
   color: white;
   width: 100%;
 }
