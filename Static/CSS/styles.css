@@ -1,6 +1,20 @@
 
-
-
+.whole{
+  background: rgb(22,138,207);
+  background: linear-gradient(0deg, rgba(22,138,207,1) 0%, rgba(9,121,87,1) 77%);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.combine{
+  display: flex;
+  width:80%;
+  margin: auto;
+  justify-content: space-around;
+}
+.image1{
+  width :50%;
+  max-width: 500px;
+}
 .topnav {
   background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
     overflow: hidden;
@@ -73,7 +87,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.header1{
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.header1:hover{
+  color: blue;
 .container-fluid{
   height: 120vh;
 }
@@ -88,6 +109,8 @@ body{
   width: 12vw;
   color: blue;
   font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
 }
 .bg-light{
   background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
@@ -108,6 +131,26 @@ html {
 .about{
 margin-left: 30px;
 }
+.HEADER2{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.normal{
+  padding-top: 30px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.diete{
+  font-size: 30px;
+  font-weight: bold;
+}
+.one{
+  display: flex;
+  width: 80%;
+
+  justify-content: space-around;
 .about{
   color: whitesmoke;
 padding-top: 4em;
@@ -278,5 +321,166 @@ button{
   margin: 5% 0 0 20%;
   position: relative;
   bottom: 15em;
+}
+.Breakfast1{
+  color: blue;
+}
+.lunch1{
+  color: blue;
+}
+.dinner1{
+  color: blue;
+}
+.exercisee{
+  color: blue;
+}
+.normal{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.diete{
+  font-style: italic;
+}
+.pictures{
+  width :50%;
+  max-width: 500px;
+  padding-left: 100px;
+}
+.img{
+  object-fit: cover;
+  height: 100%;
+  width:100%
+}
+.one{
+  display: flex;
+  width:70%;
+  margin: auto;
+}
+.two{
+  display: flex;
+  justify-content: space-around;
+}
+.Over{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.div{
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.picture1{
+  width :50%;
+  max-width: 500px;
+
+}
+.ball{
+  object-fit: cover;
+  height: 100%;
+  width:100%
+}
+.two{
+  display: flex;
+  width:80%;
+  margin: auto;
+}
+.three{
+  display: flex;
+  width:80%;
+  margin: auto;
+  justify-content: space-around;
+}
+}
+.tools{
+  width :50%;
+  max-width: 500px;
+  padding-left: 100px;
+}
+.tool{
+  object-fit: cover;
+  height: 100%;
+  width:100%
+}
+.obese{
+  text-align: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.total{
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.Breakfastt{
+  color: blue;
+}
+.lunchh{
+  color: blue;
+}
+.dinnerr{
+  color: blue;
+}
+.exercisess{
+  color: blue;
+}
+.lightbreakfast{
+  color: blue;
+}
+.lightlunch{
+  color: blue;
+}
+.lightdinner{
+  color: blue;
+}
+.alot{
+  color: blue;
+}
+.snack{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.photo{
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.logo p{
+  background-image: linear-gradient(140deg, #628DFD,  #62FD71);
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 10.5vh;
+  width: 12vw;
+  color: blue;
+  font-style: italic;
+
+
+}
+.whole{
+  align-items: center;
+}
+.logo{
+  margin-right: 40%;
+}
+.everything{
+  align-items: center;
+}
+
+.bg-light{
+    width: 100%;
+    height: 8vh;
+    background-image: linear-gradient(120deg,#EAEDF5, #3A6FF5);
+    display: flex;
+    justify-content: center;
 }
 
