@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Static/CSS/bootstrap.css">
+  <link rel="stylesheet" href="Static/CSS/login.css" type="text/css">
+  <script src="Static/JS/jQuery-3.6.0.js"></script>
+  <script src="Static/JS/login.js"></script>
+  <title>Login-Page</title>
+</head>
+<body>
+<!-- 
+  <div class="navbar">
+
+    <div class="logo">
+      <a href="#" style="text-decoration: none;" >Daily Nutritional <br> Advisor</a>
+    </div>
+
+    <div class="ul">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">BMI</a></li>
+        <li><a href="diet.html">Diet</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="register.html">Login</a></li>
+      </ul>
+    </div>
+  </div> -->
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+      <div class="logo">
+          <p style="text-decoration: none;" >Daily Nutritional <br> Advisor</p>
+        </div>
+      <ul class="navbar-nav  ml-auto">
+          <li class="nav-item"><a href="home.html" class="navbar-brand">Home</a></li>
+          <li class="nav-item"><a href="index.html" class="navbar-brand">BMI</a></li>
+          <li class="nav-item"><a href="diet.html" class="navbar-brand">Diet</a></li>
+          <li class="nav-item"><a href="register.html" class="navbar-brand">Register</a></li>
+          <li class="nav-item"><a href="#" class="navbar-brand">Login</a></li>
+      </ul>
+  </nav>
+
+     <div class="login-info"> 
+      <div class="login-form">
+        <form  method="POST" id="login_form">
+        
+        <form action="#">
+          <h1>Login</h1>
+          <div class="mb-3 forms">
+            <label for="name" class="form-label"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+  
+          <div class="mb-3 forms">
+            <label for="email" class="form-label"></label>
+            <input type="email" class="form-control" id="email" placeholder="Email address">
+          </div>
+  
+          <div class="mb-3">
+            <label for="password" class="form-label"></label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+
+          <div class="r-btn">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>  
+          
+        </form>
+
+      </div>
+      <div class="login-head">
+        <h2>Login to your account</h2>
+      </div>
+      </div>
+    </div>
+  
+</body>
+</html>
