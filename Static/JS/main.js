@@ -10,5 +10,7 @@ function bmi(){
       alert("Your height is too extreme. Please input another value.")
     } else{
     document.getElementById("input3").value=BMI.toFixed(2);
+    document.getElementById("input1").value="";
+    document.getElementById("input2").value="";
 }
 }
